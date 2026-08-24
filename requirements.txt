@@ -1,0 +1,19 @@
+# Behavioural Validation Framework for LLM-Generated Code in CI
+# Python 3.10+ required
+
+# LLM inference (local, no API key required)
+ollama>=0.1.8
+
+# Semantic embeddings for Stage 2 and Stage 3
+sentence-transformers>=2.2.2
+
+# Numerical computation
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Results and reporting
+pandas>=1.5.0
+
+# Standard library only — no additional packages needed for:
+# ast (Stage 3 AST scanning)
+# json, csv, datetime, argparse (experiment infrastructure)
